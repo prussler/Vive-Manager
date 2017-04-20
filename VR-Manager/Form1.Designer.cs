@@ -34,10 +34,7 @@
             this.textBoxBoxSwitch = new System.Windows.Forms.TextBox();
             this.buttonBoxPath = new System.Windows.Forms.Button();
             this.folderBrowserDialogBoxSwitch = new System.Windows.Forms.FolderBrowserDialog();
-            this.groupBoxSoundSwitcher = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
-            this.groupBoxSoundSwitcher.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -90,39 +87,18 @@
             this.buttonBoxPath.UseVisualStyleBackColor = true;
             this.buttonBoxPath.Click += new System.EventHandler(this.buttonBoxPath_Click);
             // 
-            // groupBoxSoundSwitcher
-            // 
-            this.groupBoxSoundSwitcher.BackColor = System.Drawing.Color.DarkGray;
-            this.groupBoxSoundSwitcher.Controls.Add(this.richTextBox1);
-            this.groupBoxSoundSwitcher.Location = new System.Drawing.Point(55, 309);
-            this.groupBoxSoundSwitcher.Name = "groupBoxSoundSwitcher";
-            this.groupBoxSoundSwitcher.Size = new System.Drawing.Size(690, 361);
-            this.groupBoxSoundSwitcher.TabIndex = 4;
-            this.groupBoxSoundSwitcher.TabStop = false;
-            this.groupBoxSoundSwitcher.Text = "Sound-Switcher";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(30, 44);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(576, 254);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            // 
             // FormVrManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1254, 892);
-            this.Controls.Add(this.groupBoxSoundSwitcher);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormVrManager";
             this.Text = "VR-Manager";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBoxSoundSwitcher.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -135,8 +111,6 @@
         private System.Windows.Forms.Button buttonBoxPath;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogBoxSwitch;
         private System.Windows.Forms.Button buttonSwitchBoxMode;
-        private System.Windows.Forms.GroupBox groupBoxSoundSwitcher;
-        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
